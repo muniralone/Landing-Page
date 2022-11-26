@@ -1,0 +1,66 @@
+<div class="main_wrap" >
+    <div class="base_wrap">
+      <div class="logo"><img src="assets/logo.png" alt=""/></div>
+      <div class="countdown">			
+        <span>
+           {{showcount}}
+        </span>
+        <span>לפתיחת ההצבעה</span>
+        
+      </div>
+      <div class="place_left">
+        <span>10,000</span>
+        <span>מקומות נשארו</span>
+      </div>
+      <div class="main_text">
+        <p>TEXT BLOICK TEXT BLOICK TEXT BLOICK TEXT BLOICKTEXT BLOICK TEXT BLOICK TEXT BLOICK TEXT BLOICK</p>		
+      </div>
+      <div class="form_section">
+        <form>
+          <div class="form_group">          
+            <input class="form_control" type="text" required="required" />
+            <label class="inputlabel">שם :</label>
+          </div>
+          <div class="form_group">          
+            <input class="form_control" type="number" min="5" max= "18" required="required" />
+            <label class="inputlabel">שם משפחה של הילד/ה :</label>
+          </div>
+          <div class="form_group">          
+            <input class="form_control" type="text" required="required"  />
+            <label class="inputlabel">גיל הילד/ה. :</label>
+          </div>
+          <div class="form_group">          
+            <input class="form_control" type="text" required="required" />
+            <label class="inputlabel"> שם ההורה :</label>
+          </div>
+          <div class="form_group">          
+            <input class="form_control" type="text" required="required" />
+            <label class="inputlabel">מספר תעודת זהות ההורה :</label>
+          </div> 
+          <div class="form_group">          
+            <input class="form_control" type="email" required="required" />
+            <label class="inputlabel"> דואר אלקטרוני :</label>
+          </div>           
+          <div class="form_group">          
+            <input class="form_control" type="text" required="required" />
+            <label class="inputlabel">מספר טלפון:</label>
+          </div> 
+          <div class="form_group">          
+            <input class="form_control" type="text" required="required" />
+            <label class="inputlabel">קוד שנשלח:</label>
+          </div> 
+          <div class="form_group checkboxuse"> 
+            <input type="checkbox" required> בהזנת מספר תעודת הזהות של ההורה יש הסכמה להשתתפות בהצבעה של האקדמיה
+            ולתנאי השימוש של האתר (לפני לחיצה על אישור אנא קראו בעיון רב את תנאי שימוש
+            ומדיניות פרטיות
+          </div>  
+          <div class="form_group">
+            <input type="submit" value="הצטרף לתחרות" (click)="opensweetalert()">
+          </div>      
+        </form>
+      </div>
+    </div>
+  </div> 
+  
+  <router-outlet></router-outlet>
+  
